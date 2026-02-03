@@ -9,6 +9,10 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   const name = document.getElementById("expenseName").value;
+  if (!/^[A-Za-z ]+$/.test(name)) {
+  errorMessage.textContent = "Expense name should contain letters only";
+  return;
+}
   const amount = document.getElementById("expenseAmount").value;
 
   
@@ -33,3 +37,4 @@ form.addEventListener("submit", function (e) {
 
   form.reset();
 });
+
