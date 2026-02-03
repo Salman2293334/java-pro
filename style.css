@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 30px;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background: #1e293b;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+h3 {
+  margin-top: 25px;
+}
+
+/* Form */
+form {
+  background: #ffffff;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Error Message */
+#errorMessage {
+  margin-top: 10px;
+  color: #dc2626;
+  font-weight: 500;
+}
+
+/* Expense List */
+ul {
+  margin-top: 15px;
+  max-width: 400px;
+}
+
+li {
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Total */
+h3 span {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+/* Pages Content */
+p, ul li {
+  line-height: 1.6;
+}
