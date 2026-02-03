@@ -34,7 +34,8 @@ form.addEventListener("submit", function (e) {
 
   total += Number(amount);
   totalAmount.textContent = total;
-
+  alert(`Expense Added:\nName: ${name}\nAmount: $${amount}\nTotal: $${total}`);
   form.reset();
 });
+
 
